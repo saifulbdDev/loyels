@@ -1,0 +1,631 @@
+/************************ extra small deveice css start ******************************/
+@media (min-width: 320px) and (max-width: 575px){
+/*    ***** top menubar start *************/
+    .top-menubar{
+        display: none;
+    }
+/*    ***** top menubar end *************/
+    
+    
+/*    ***** menubar start **************/
+    .main-menubar .navbar-toggler .navbar-icon{
+        color: #AE4B03;
+    }
+/*    ***** menubar end ****************/
+
+    
+/*    ***** backto top start ***************/
+    .btop{
+        display: none;
+    }
+/*    ***** backto top end ****************/
+    
+    .main-menubar .navbar .search-input{
+        padding: 25px 200px;
+    }
+    
+    #categorie .categorie-menu ul li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #categorie .categorie-menu ul li a{
+        font-size: 13px;
+    }
+}
+/************************ extra small deveice css end ********************************/
+
+
+
+
+
+
+/************************ small deveice css start ******************************/
+@media (min-width: 576px) and (max-width: 767px){    
+    
+/*    ***** menubar start **************/
+    .main-menubar .navbar-toggler .navbar-icon{
+        color: #AE4B03;
+    }
+    
+    .main-menubar .navbar .search-input{
+        padding: 25px 200px;
+    }
+    
+    #categorie .categorie-menu ul li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #categorie .categorie-menu ul li a{
+        font-size: 15px;
+    }
+    
+    .promo-box .shock{
+        font-size: 18px !important;
+    }
+/*    ***** menubar end ****************/
+}
+/************************ small deveice css end ********************************/
+
+
+
+
+/************************ medium deveice css start ******************************/
+@media (min-width: 768px) and (max-width: 991px){    
+    
+/*    ***** menubar start **************/
+    .main-menubar .navbar-toggler .navbar-icon{
+        color: #AE4B03;
+    }
+    
+    .main-menubar .navbar .search-input{
+        padding: 25px 200px;
+    }
+    
+    #categorie .categorie-menu ul li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .promo-box .shock{
+        font-size: 18px !important;
+    }
+    
+/*    ***** menubar end ****************/
+}
+/************************ medium deveice css end ********************************/
+
+
+
+
+
+/************************ medium deveice css start ******************************/
+@media (min-width: 992px) and (max-width: 1199px){    
+    
+/*    ***** menubar start **************/
+    .main-menubar .navbar-toggler .navbar-icon{
+        color: #AE4B03;
+    }
+    
+    .main-menubar .navbar .search-input{
+        width: 140px;
+    }
+    
+    .main-menubar .navbar{
+        padding: 5px 15px;
+    }
+    
+    .main-menubar .navbar .right-nav .nav-item .nav-link{
+        padding: 8px 10px;
+    }
+    
+    .main-menubar .navbar .left-nav{
+        padding-left: 0;
+    }
+    
+    .promo-box .shock{
+        font-size: 20px !important;
+    }
+    
+    #categorie .categorie-menu ul li{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .main-menubar .navbar .search-input{
+        padding: 25px 200px;
+        margin-left: 0;
+    }
+    
+    .main-menubar .navbar .search-box button{
+        
+    }
+/*    ***** menubar end ****************/
+    
+    
+    
+/*    ***** megamenu start ***************/
+    .navbar .nav-item .dropdown-menu{
+        width: 720px;
+    }
+/*    ***** megamenu end ****************/
+}
+/************************ medium deveice css end ********************************/
+
+
+
+
+
+
+
+
+/************************ only use laptop deveice css start ******************************/
+@media (min-width: 1100px) and (max-width: 1200px){
+    .main-menubar .navbar .search-input{
+        width: 190px;
+    }
+    
+    .main-menubar .navbar .right-nav .nav-item .nav-link{
+        padding: 8px 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+    .main-menubar .navbar .search-input{
+        width: 230px !important;
+    }
+    
+    .main-menubar .navbar .right-nav .nav-item .nav-link{
+        padding: 8px 10px;
+    }
+}
+/************************ only use laptop deveice css end ********************************/
+
+.main-menubar .navbar .search-input
+
+
+
+/*MEDIA QUERY MAX-WIDTH 992PX*/
+@media(max-width: 992px){
+	.custom-container{
+	    max-width: calc(100% - 0px);
+	}
+
+	/* PRODUCT AREA START */
+	.product-area{
+	    padding: 30px 20px 20px;
+	}
+	/* PRODUCT AREA END */
+
+	/* CATEGORY AREA START */
+	.category-area{
+	    padding: 20px 20px;
+	}
+	/* CATEGORY AREA END */
+
+	/* FEATURED SELLER AREA START */
+	.featured-seller-area{
+	    padding: 20px 20px;
+	}
+	/* FEATURED SELLER AREA END */
+
+	/* BRAND AREA START */
+	.brand-area{
+	    padding: 20px 20px;
+	}
+	/* BRAND AREA END */
+
+	/* FOOTER AREA START */
+	.footer-area{
+	    background: #eeeeef;
+	    padding: 20px 20px;
+	}
+	/* FOOTER AREA START */
+
+}
+
+/*MEDIA QUERY MAX-WIDTH 768PX*/
+@media(max-width: 768px){
+	.area-title{
+	    font-size: 28px;
+	}
+	/* ============== HEADER AREA START ============== */
+	/* TOP MENUBAR START */
+	.top-menubar .navbar{
+		padding: 3px 0px;
+		box-shadow: 0px 14px 40px -12px rgba(0, 0, 0, 0.3);
+	}
+	.top-menubar .navbar .navbar-nav{
+		margin: 0 auto;
+	}
+	.top-menubar .navbar .nav-item .nav-link{
+		padding: 0px 5px;
+		font-size: 10px;
+	}
+	/* TOP MENUBAR END */
+	/* MAIN MENUBAR START */
+	.main-menubar .navbar{
+		box-shadow: 0px 14px 40px -12px rgba(0, 0, 0, 0.3);
+		padding: 0px 5px;
+	}
+	.main-menubar .navbar .left-nav{
+		padding-left: 12px;
+	}
+	.main-menubar .navbar .search-input{
+		margin-left: 12px;
+		min-width: calc(100% - 40px);
+	}
+	.main-menubar .navbar .search-box button{
+		margin-left: 12px;
+	}
+	.main-menubar .navbar .right-nav{
+		display: inline-block;
+	}
+	.main-menubar .navbar .right-nav .nav-item .nav-link{
+		padding: 8px 12px;
+	}
+	.main-menubar .navbar .right-nav .nav-item .nav-link:hover{
+		color: #E6420B;
+	}
+	.main-menubar .navbar .right-nav .nav-item .nav-link .fa{
+		font-size: 21px;
+		padding-bottom: 5px;
+	}
+	/* MAIN MENUBAR END */
+	/* ============== HEADER AREA END ============== */
+
+	/* HOME SLIDER AREA START */
+	.home-slider .owl-carousel .owl-nav{
+	    display: none;
+	}
+	.home-slider .owl-carousel{
+	    height: 36vh;
+	}
+	.home-slider .owl-carousel img{
+	    height: 36vh;
+	}
+	.home-slider .owl-carousel .owl-nav .owl-prev{
+	    left: 15px;
+	    top: 15vh;
+	    font-size: 52px;
+	}
+	.home-slider .owl-carousel .owl-nav .owl-next{
+	    right: 15px;
+	    top: 15vh;
+	    font-size: 52px;
+	}
+	.home-slider .owl-carousel .owl-dots{
+	    width: 100%;
+	    bottom: 5px;
+	}
+	.home-slider .owl-carousel .owl-dots .owl-dot span{
+	    width: 9px;
+	    height: 9px;
+	    margin: 3px;
+	}
+	/* HOME SLIDER AREA END */
+
+	/* PRODUCT AREA START */
+	.product-area{
+	    padding: 30px 10px 20px;
+	}
+	.product-title-area .title{
+	    font-size: 15px;
+	}
+	.product-title-area .see-more{
+	    font-size: 14px;
+	}
+	.product-list-area .owl-carousel .product-image{
+	    height: 180px;
+	    width: 140px;
+	}
+
+	.product-list-area .owl-carousel .product-image img{
+	    height: 180px;
+	    width: 140px;
+	}
+	.product-list-area .owl-carousel .owl-nav .owl-prev{
+	    top: 40px;
+	    font-size: 45px;
+	    width: 32px;
+	    height: 90px;
+	}
+	.product-list-area .owl-carousel .owl-nav .owl-next{
+	    top: 40px;
+	    font-size: 45px;
+	    width: 32px;
+	    height: 90px;
+	}
+	.product-list-area .owl-carousel .owl-nav{
+	    display: none;
+	}
+	/* PRODUCT AREA END */
+
+	/* CATEGORY AREA START */
+	.category-area{
+	    padding: 20px 10px;
+	}
+	.category-area a.category-name{
+	    font-size: 14px;
+	    padding: 0 2px;
+	}
+	/* CATEGORY AREA END */
+
+	/* FEATURED SELLER AREA START */
+	.featured-seller-area{
+	    padding: 20px 10px;
+	}
+	/* FEATURED SELLER AREA END */
+
+	/* BRAND AREA START */
+	.brand-area{
+	    padding: 20px 10px;
+	}
+	/* BRAND AREA END */
+
+	/* FOOTER AREA START */
+	.footer-area{
+	    background: #eeeeef;
+	    padding: 20px 0px;
+	}
+	/* FOOTER AREA END */
+}
+
+
+/* ============== START ============== */
+/* ===== LOGIN PAGE START ===== */
+
+/************* nur css start *******************/
+@media (min-width: 320px) and (max-width: 575px){
+    .login-area{
+        height: 230vh;
+    }
+    
+    .login-img{
+        padding-left: 0;
+        padding: 150px 20px;
+    }
+    
+    .login{
+        padding: 0;
+    }
+}
+/***************** extra small device end **************/
+
+@media (min-width: 576px) and (max-width: 767px){
+    .login-area{
+        height: 115vh;
+    }
+    
+    .login-img{
+        padding-left: 0;
+        padding: 90px 10px;;
+    }
+    
+    .login{
+        padding: 0;
+        margin-top: 25px;
+        min-height: 50vh;
+        padding-right: 25px;
+    }
+    
+}
+/***************** small device end **************/
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .login-area{
+        height: 115vh;
+    }
+    
+    .login-img{
+        padding-left: 0;
+        padding: 90px 10px;;
+    }
+    
+    .login{
+        padding: 0;
+        margin-top: 25px;
+        min-height: 50vh;
+        padding-right: 25px;
+    }
+    
+}
+/***************** medium device end **************/
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .login-area{
+        height: 115vh;
+    }
+    
+    .login-img{
+        padding-left: 0;
+        padding: 90px 10px;;
+    }
+    
+    .login{
+        padding: 0;
+        margin-top: 25px;
+        min-height: 70vh;
+        padding-right: 25px;
+    }
+    
+}
+
+/************* nur css end *********************/
+
+
+
+
+@media(max-width: 992px) {
+    .login-footer-area{
+        padding: 60px 80px;
+        background: #EEEEEF;
+    }
+}
+@media(max-width: 768px) {
+    .login-footer-area{
+        padding: 40px 20px;
+        background: #EEEEEF;
+    }
+}
+/* ===== LOGIN PAGE END ===== */
+/* ============== END ============== */
+
+
+
+
+
+/***************** signup up page css start *****************/
+@media (min-width: 320px) and (max-width: 575px){
+    .sign-area{
+        height: 70vh;
+    }
+    
+    .sign-log{
+        margin-top: 0;
+        padding: 0 20px;
+    }
+}
+/**************** extra small device end **********************/
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .sign-area{
+        height: 70vh;
+    }
+    
+    .sign-log{
+        margin-top: 0;
+        padding: 0 20px;
+    }
+}
+/**************** small device end ****************************/
+
+@media (min-width: 768px) and (max-width: 991px){
+    .sign-area{
+        height: 75vh;
+    }
+    
+    .sign-log{
+        margin-top: 0;
+        padding: 0 20px;
+    }
+}
+/**************** medium device end ****************************/
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .sign-area{
+        height: 75vh;
+    }
+    
+    .sign-log{
+        margin-top: 0;
+        padding: 0 20px;
+    }
+}
+/***************** signup up page css end *******************/
+
+
+
+
+
+
+
+/***************** signup-2 up page css start ******************/
+@media (min-width: 320px) and (max-width: 575px){
+    .sign-area-2{
+        height: 130vh;
+    }
+    
+    .sign-2{
+        margin-top: 0;
+        padding: 5px 10px;
+    }
+    
+    .sign-area-2 .sign-bg{
+        bottom: -147px;
+    }
+}
+/*********** extra small device end *****************************/
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .sign-area-2{
+        height: 120vh;
+    }
+    
+    .sign-2{
+        margin-top: 0;
+        padding: 5px 10px;
+    }
+    
+    .sign-area-2 .sign-bg{
+        bottom: -120px;
+    }
+}
+/************************small device end*************************/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .sign-area-2{
+        height: 120vh;
+    }
+    
+    .sign-2{
+        margin-top: 0;
+        padding: 5px 10px;
+    }
+    
+    .sign-area-2 .sign-bg{
+        bottom: -120px;
+    }
+}
+/************************medium device end*************************/
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .sign-area-2{
+        height: 120vh;
+    }
+    
+    .sign-2{
+        margin-top: 0;
+        padding: 5px 10px;
+    }
+    
+    .sign-area-2 .sign-bg{
+        bottom: -120px;
+    }
+}
+/************************large device end***********************/
+
+
+@media (min-width: 1200px) and (max-width: 1600px){
+    .sign-area-2{
+        height: 120vh;
+    }
+    
+    .sign-2{
+        margin-top: 0;
+        padding: 5px 10px;
+    }
+    
+    .sign-area-2 .sign-bg{
+        bottom: -120px;
+    }
+}
+/***************** signup-2 up page css end *******************/
+
+
+
+
